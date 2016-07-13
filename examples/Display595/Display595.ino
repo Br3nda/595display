@@ -1,8 +1,4 @@
-#include "595Display.h"
-
-#include "Display595.h"
-
-#include <Arduino.h>
+#include <Display595.h>
 
 const int CLOCK_PIN = 9;
 const int LATCH_PIN = 10;
