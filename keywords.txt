@@ -1,2 +1,3 @@
 Display595   KEYWORD1
+setNumber 	     KEYWORD2
 setNumberAndPoint    KEYWORD2
