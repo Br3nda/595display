@@ -1,8 +1,8 @@
 #include <Display595.h>
 
-const int CLOCK_PIN = 9;
-const int LATCH_PIN = 10;
-const int DATA_PIN = 12;
+const int CLOCK_PIN = 5;  //SCK
+const int LATCH_PIN = 6; //RCK
+const int DATA_PIN = 3;  //DIO
 const int DISPLAY_DIGIT_COUNT = 8;
 
 Display595 display;
