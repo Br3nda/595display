@@ -9,13 +9,15 @@ Display595 display;
 
 
 void setup() {
-
+  pinMode(CLOCK_PIN, OUTPUT);
+  pinMode(DATA_PIN, OUTPUT);
+  pinMode(LATCH_PIN, OUTPUT);
+  
   display.initialize(CLOCK_PIN, DATA_PIN, LATCH_PIN, DISPLAY_DIGIT_COUNT);
-
-  for(int i=0; i<DISPLAY_DIGIT_COUNT; i++) {
-    display.setNumberAndPoint(i, i, false);
-  }
 }
 
 void loop() {
+  for(int i=0; i<DISPLAY_DIGIT_COUNT; i++) {
+    display.setNumberAndPoint(i, i, false);
+  }  
 }
