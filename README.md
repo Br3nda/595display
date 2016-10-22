@@ -1,6 +1,6 @@
 # README #
 
-Fork of library by  @soruce
+Fork of library by  [@soruce](https://github.com/soruce)
 
 
 This project contains sample Arduino code to use the following dealextreme.com display:
